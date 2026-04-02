@@ -13,16 +13,43 @@ This file defines:
 # ---------------------------------------------------------------------
 
 POSITIVE_WORDS = [
+    # Standard positive words
     "happy",
     "great",
     "good",
     "love",
+    "like",
     "excited",
     "awesome",
     "fun",
     "chill",
     "relaxed",
     "amazing",
+    "hopeful",
+    "proud",
+    "joy",
+    "glad",
+    "beautiful",
+    "wonderful",
+    "excellent",
+    "perfect",
+    "best",
+    # Slang for "good/awesome"
+    "fire",        # "that song is fire"
+    "lit",         # "the party was lit"
+    "dope",        # "that's so dope"
+    "sick",        # "sick moves!"
+    "tight",       # "that's tight"
+    "fresh",       # "fresh kicks"
+    "bomb",        # "this pizza is bomb"
+    "wicked",      # "wicked cool" (regional slang)
+    "slaps",       # "this song slaps"
+    "hits",        # "this hits different"
+    "iconic",      # "that's iconic"
+    "goat",        # "he's the goat" (greatest of all time)
+    "vibes",       # "good vibes"
+    "clean",       # "that car is clean"
+    "solid",       # "solid choice"
 ]
 
 NEGATIVE_WORDS = [
@@ -36,6 +63,11 @@ NEGATIVE_WORDS = [
     "stressed",
     "hate",
     "boring",
+    "dislike",
+    "annoyed",
+    "frustrated",
+    "disappointed",
+    "hurt",
 ]
 
 # ---------------------------------------------------------------------
@@ -50,6 +82,14 @@ SAMPLE_POSTS = [
     "This is fine",
     "So excited for the weekend",
     "I am not happy about this",
+    "Lowkey stressed about the exam but no cap I think I aced it 😅",
+    "I absolutely love waking up at 5am for work 🙃",
+    "Just got ghosted lmao... anyway pizza time 🍕",
+    "Feeling kinda empty ngl but the sunset hit different today 🌅",
+    "My boss said 'great job' in the most dead voice possible 💀",
+    "your presentation was fire",
+    "he's the goat",
+    "I can't believe I have to work on a Saturday",
 ]
 
 # Human labels for each post above.
@@ -65,6 +105,14 @@ TRUE_LABELS = [
     "neutral",   # "This is fine"
     "positive",  # "So excited for the weekend"
     "negative",  # "I am not happy about this"
+    "mixed",     # "Lowkey stressed about the exam but no cap I think I aced it 😅"
+    "negative",  # "I absolutely love waking up at 5am for work 🙃" (sarcasm)
+    "mixed",     # "Just got ghosted lmao... anyway pizza time 🍕"
+    "mixed",     # "Feeling kinda empty ngl but the sunset hit different today 🌅"
+    "neutral",   # "My boss said 'great job' in the most dead voice possible 💀",
+    "positive",  # "your presentation was fire",
+    "positive",  # "he's the goat",
+    "negative",  # "I can't believe I have to work on a Saturday"
 ]
 
 # TODO: Add 5-10 more posts and labels.
